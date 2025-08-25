@@ -30,7 +30,7 @@
 ---
 
 ## 🖼️ Block Diagram
-![alt text](../PPT/Image/uch_block_single_Cycle.drawio.png)
+![alt text](../PPT/image/uch_block_single_Cycle.drawio.png)
 
 ## 📂 디렉토리 구조
 ```

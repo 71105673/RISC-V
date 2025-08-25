@@ -47,7 +47,7 @@ CPU 구조, 데이터 경로 설계, 명령어 실행 과정을 직접 구현하
 
 ## 🖼️ Block Diagram
 **Multi Cycle 구현을 위한 FF 추가 version**
-![alt text](PPT/Image/Block_Control.png)
+![alt text](PPT/image/Final_Full_Diagram.png)
 
 ## 🧪 Simulation
 Vivado 시뮬레이션을 통해 각 명령에 대한 동작을 검증하였습니다.
