@@ -1,4 +1,5 @@
-# RV32I - 32bit CPU Design
+# RISC-V RV32I 32bit CPU Design
+
 ## 📝 Overview
 본 프로젝트는 **RISC-V RV32I 명령어 집합 구조(ISA)** 를 기반으로,  
 **32비트 단일 사이클(Single-Cycle) CPU**와 **다중 사이클(Multi-Cycle) CPU**를 각각 구현한 결과물입니다.  
