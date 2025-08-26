@@ -84,18 +84,18 @@ endmodule
 ```
 
 **R-Type**
-![alt text](immage/R-Type.png)
+![alt text](immage/R.png)
 
 **S, L-Type**
-![alt text](immage/SL-Type.png)
+![alt text](immage/SL.png)
 
 **I-Type**
-![alt text](immage/I-Type.png)
+![alt text](immage/I.png)
 
 **B-Type**
-![alt text](immage/B-Type.png)
+![alt text](immage/B.png)
 
 **LU, AU, J, JL-Type**
-![alt text](immage/LU,AU,J,JL-Type.png)
+![alt text](immage/LU,AU,J,JL.png)
 
 동일한 결과가 출력되는 것을 확인할 수 있다.
