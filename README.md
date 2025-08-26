@@ -95,3 +95,7 @@ wire delay 감소 및 더 깔끔하게 구현했음
 
 ## 참고
 자세한 내용은 PPT를 확인해 주세요
+
+## 추가 사항
+**Synopsys VCS & Verdi**를 이용한 검증을 
+Multi Cycle RAM README에 기재했습니다.
