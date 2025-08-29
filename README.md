@@ -14,4 +14,8 @@
 ├── 📁 AMBA_APB
 ```
 
-## 참고
+## Reference
+ 
+For more details, please refer to the README in each folder.
+
+자세한 사항은 각 폴더 내의 README를 확인해주세요. 
