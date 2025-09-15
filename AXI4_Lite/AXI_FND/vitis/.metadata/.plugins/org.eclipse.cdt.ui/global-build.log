@@ -1,0 +1,20 @@
+Nothing to build in platform 'design_1_wrapper'
+
+16:48:19 **** Incremental Build of configuration Debug for project fndController ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fndController.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "fndController.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fndController.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size fndController.elf  |tee "fndController.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1972	    268	   3112	   5352	   14e8	fndController.elf
+'Finished building: fndController.elf.size'
+' '

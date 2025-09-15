@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.srcs/sim_1/new/tb_adder.sv,1756794902,systemVerilog,,,,adder_intf;tb_adder,,uvm,,,,,,
+D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.srcs/sources_1/new/adder.sv,1756794554,systemVerilog,D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.srcs/sim_1/new/tb_adder.sv,D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.srcs/sim_1/new/tb_adder.sv,,$unit_adder_sv;adder,,uvm,,,,,,

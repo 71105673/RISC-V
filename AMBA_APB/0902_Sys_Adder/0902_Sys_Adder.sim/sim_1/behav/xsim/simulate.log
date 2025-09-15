@@ -1,0 +1,22 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Pass!:  99 +  71 = 170
+Pass!:  34 + 237 = 271
+Pass!: 127 +  12 = 139
+Pass!: 131 + 210 = 341
+Pass!: 101 +  90 = 191
+Pass!:  67 +  72 = 139
+Pass!: 201 + 146 = 347
+Pass!:  35 +  14 =  49
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+Pass!: 168 + 137 = 305
+$finish called at time : 200 ns : File "D:/CPU_workspace/0902_Sys_Adder/0902_Sys_Adder.srcs/sim_1/new/tb_adder.sv" Line 125

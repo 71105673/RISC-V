@@ -1,0 +1,9 @@
+timestamp=[2025-09-05 16:36:40], mode=WORKBENCH_START, duration=0:00:06.353, duration_ms=6353, data={}
+timestamp=[2025-09-05 16:36:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.409, duration_ms=409, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-09-05 16:36:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.442, duration_ms=3442, data={}
+timestamp=[2025-09-05 16:37:15], mode=APP_CREATION, duration=0:00:05.930, duration_ms=5930, data={name=fndController, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2025-09-05 16:37:31], mode=PLATFORM_GENERATION, duration=0:00:06.769, duration_ms=6769, data={name=design_1_wrapper}
+timestamp=[2025-09-05 16:37:34], mode=BUILD, duration=0:00:02.428, duration_ms=2428, data={name=fndController, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 16:45:22], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=fndController, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 16:46:28], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=fndController, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 16:48:19], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=fndController, configuration=Debug, clean_build=false}

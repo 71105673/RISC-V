@@ -1,0 +1,91 @@
+16:36:41 INFO  : Registering command handlers for Vitis TCF services
+16:36:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\CPU_workspace\0905_AXI4_Lite_FndController\vitis\temp_xsdb_launch_script.tcl
+16:36:44 INFO  : XSCT server has started successfully.
+16:36:45 INFO  : plnx-install-location is set to ''
+16:36:45 INFO  : Successfully done setting XSCT server connection channel  
+16:36:45 INFO  : Successfully done query RDI_DATADIR 
+16:36:45 INFO  : Successfully done setting workspace for the tool. 
+16:36:45 INFO  : Platform repository initialization has completed.
+16:37:12 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:37:12 INFO  : Result from executing command 'getPlatforms': 
+16:37:13 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:37:13 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+16:37:15 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+16:37:31 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:37:31 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+16:37:31 INFO  : Checking for BSP changes to sync application flags for project 'fndController'...
+16:40:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:40:07 INFO  : Jtag cable 'Digilent Basys3 210183B3191EA' is selected.
+16:40:07 INFO  : 'jtag frequency' command is executed.
+16:40:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B3191EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B3191EA-0362d093-0"}' command is executed.
+16:40:08 INFO  : Device configured successfully with "D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/_ide/bitstream/design_1_wrapper.bit"
+16:40:08 INFO  : Context for processor 'microblaze_0' is selected.
+16:40:08 INFO  : Hardware design and registers information is loaded from 'D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:40:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:40:08 INFO  : Context for processor 'microblaze_0' is selected.
+16:40:08 INFO  : System reset is completed.
+16:40:11 INFO  : 'after 3000' command is executed.
+16:40:11 INFO  : Context for processor 'microblaze_0' is selected.
+16:40:11 INFO  : The application 'D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/Debug/fndController.elf' is downloaded to processor 'microblaze_0'.
+16:40:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B3191EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B3191EA-0362d093-0"}
+fpga -file D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/Debug/fndController.elf
+----------------End of Script----------------
+
+16:40:11 INFO  : Context for processor 'microblaze_0' is selected.
+16:40:11 INFO  : 'con' command is executed.
+16:40:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:40:11 INFO  : Launch script is exported to file 'D:\CPU_workspace\0905_AXI4_Lite_FndController\vitis\fndController_system\_ide\scripts\debugger_fndcontroller-default.tcl'
+16:45:22 INFO  : Checking for BSP changes to sync application flags for project 'fndController'...
+16:46:28 INFO  : Checking for BSP changes to sync application flags for project 'fndController'...
+16:48:19 INFO  : Checking for BSP changes to sync application flags for project 'fndController'...
+16:48:25 INFO  : Disconnected from the channel tcfchan#2.
+16:48:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:26 INFO  : Jtag cable 'Digilent Basys3 210183B3191EA' is selected.
+16:48:26 INFO  : 'jtag frequency' command is executed.
+16:48:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B3191EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B3191EA-0362d093-0"}' command is executed.
+16:48:27 INFO  : Device configured successfully with "D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/_ide/bitstream/design_1_wrapper.bit"
+16:48:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:27 INFO  : Hardware design and registers information is loaded from 'D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:48:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:48:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:27 INFO  : System reset is completed.
+16:48:30 INFO  : 'after 3000' command is executed.
+16:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:30 INFO  : The application 'D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/Debug/fndController.elf' is downloaded to processor 'microblaze_0'.
+16:48:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B3191EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B3191EA-0362d093-0"}
+fpga -file D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/CPU_workspace/0905_AXI4_Lite_FndController/vitis/fndController/Debug/fndController.elf
+----------------End of Script----------------
+
+16:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:30 INFO  : 'con' command is executed.
+16:48:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:48:30 INFO  : Launch script is exported to file 'D:\CPU_workspace\0905_AXI4_Lite_FndController\vitis\fndController_system\_ide\scripts\debugger_fndcontroller-default.tcl'
+16:54:47 INFO  : Disconnected from the channel tcfchan#3.
